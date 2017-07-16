@@ -1,0 +1,49 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+.wrap{
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ul li{
+    width: 100%;
+    /*display: none;*/
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: opacity 2s ease-out;
+    width: 600px;
+    height: 400px;
+}
+ol{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+ol li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #FFC0CB;
+    text-align: center;
+}
+.active{
+    background-color: #FF4500;
+}
